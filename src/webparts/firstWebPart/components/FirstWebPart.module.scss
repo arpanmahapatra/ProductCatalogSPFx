@@ -1,0 +1,223 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+
+.flexRowML20{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+
+}
+
+
+.searchBar{
+  width: 50%;
+  float:left;
+  margin:0px 100px 0px 15%;
+}
+
+$color:#004e8c;
+
+.heading{
+  color:$color
+}
+
+
+.displayButtons{
+  font-size: 16px;
+  margin-right: 5px;
+  background-color: white;
+  color:#004e8c;
+  border:none;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+button.displayButtons:hover{
+  background-color: white;
+  color:#004e8c;
+  border:none
+}
+button.displayButtons:focus{
+  background-color: white;
+
+
+}
+
+
+button.displayButtons:visited{
+  background-color: white;
+
+
+}
+
+
+.prodcards{
+
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: row;
+
+}
+
+.search{
+  width:1000px;
+}
+
+.prodcard{
+
+    width: 22%;
+    height: 14%;
+    margin:0px 20px 40px 40px;
+    border: 1px solid lightgrey;
+    border-left: 3px solid  #004e8c;
+
+
+
+
+}
+.card{
+  color:$color;
+  padding: 5px;
+}
+
+.card>p{
+  color:black;
+  padding: 5px;
+}
+
+.flexrow{
+  display: flex;
+  flex-direction: row;
+
+}
+.flexcol{
+  display: flex;
+  flex-direction: column;
+  margin-top:5px;
+  font-style: bold;
+
+}
+
+$color:#004e8c;
+
+.h1{
+    color:$color
+  }
+
+  .displayDetails{
+    width: 100%
+
+  }
+
+
+  .edit{
+    margin-left: 40%;
+
+  }
+
+  .displayOfEachAttribute{
+    margin-right: 330px;
+    width:620px;
+
+  }
+
+
+
+
+
+  $color-blue:#004e8c;
+  $color-red:red;
+
+.deleteModal{
+    padding:10px
+  }
+  .deleteModalButtonNo{
+    background-color: $color-blue;
+    margin:40px 50px 0px 50px
+
+  }
+  .deleteModalButtonYes{
+    background-color: $color-blue;
+    margin:40px 50px 0px 100px
+  }
+
+  .red{
+    color:$color-red;
+    padding-left: 4px;
+  }
+
+
+  #name_error , #type_error , #dis_error, #desc_error #sponsor_error #scope_error{
+    margin:5px 0px 2px 0px; color: $color-red;}
+
+
+    .error{
+        margin:5px 0px 2px 0px; color:$color-red;
+      }
+
+
+      #update{
+        margin:20px 20px 0 80%;
+
+        background-color:$color-blue
+
+      }
+      #delete{
+
+         margin:20px 0px 0px 40px;
+
+         background-color: white;
+         color: $color-blue;
+         border-color:$color-blue;
+
+      }
+
+
+
+      #submit{
+        margin:20px 20px 0 80%;
+        background-color: $color-blue;
+      }
+      #add{
+        margin:20px 20px 40px 40px;
+        background-color: $color-blue;
+      }
+
+
+
+      #Draft{
+        margin-top:20px;
+        border-color: $color-blue;
+        background-color: white;
+        color: $color-blue;
+      }
+
+      .input{
+        margin-right: 30px;
+        width:620px;
+
+      }
+      .inputdate{
+        margin-right:25px;
+        width:620px;
+        height:30px;
+
+      }
+      .input1{
+        margin-left: 285px;
+        width:620px;
+
+      }
+      label{
+        color:$color-blue;
+        padding-bottom: 2px;
+        font-weight: bold;
+      }
+
+
+  .editimg{
+    background-color:white;
+    border:none;
+    margin-left: 10px;
+
+  }
